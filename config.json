@@ -1,0 +1,26 @@
+{ 
+  "threads": 50, 
+  "timeout": 28, 
+  "proxy_source": "multilogin_xl", 
+  "proxy_country": "tr", 
+  "combo_folder": "combos", 
+  "output_folder": "results", 
+  "retries": 2, 
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36", 
+ 
+  "telegram": { 
+    "enabled": true, 
+    "bot_token": "8616641546:AAG7AUaQ1-k9YT2zlDvtqjL4aYHH1NDGVg4", 
+    "chat_id": "5370695009,-5370695009,-1005370695009", 
+    "owner_id": "1325618187", 
+    "admin_ids": [1325618187], 
+    "require_approval": true, 
+    "users_file": "users.json", 
+    "poll_interval": 3, 
+    "purchase_message":@itz_gurpreet_04"🔒 <b>Please Purchase Plan to use Bot</b>\n\nContact owner: @itz_gurpreet_04", 
+    "notify_on": ["hit", "completed"], 
+    "send_file_on_complete": true, 
+    "hits_file": "results/hits_all.txt", 
+    "silent": false 
+  } 
+}
